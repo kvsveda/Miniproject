@@ -1,4 +1,4 @@
-const sqlite3 = require('sqlite3');
+const Database = require('better-sqlite3');
 const { open } = require('sqlite');
 
 let dbPromise;
